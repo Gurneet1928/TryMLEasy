@@ -9,7 +9,7 @@ A Python Web App, frontend made with Streamlit, which allows easy implementation
 ## Usage
 
 1. Upload your dataset 
-1.1 (Optional) Select the preprocessing steps and decomposition steps 
+2. (Optional) Select the preprocessing steps and decomposition steps 
 3. Select the Machine Learning Model to Apply
 4. Use the Slider to set the Test Ratio
 5. The model is implemented successfully
