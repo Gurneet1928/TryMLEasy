@@ -1,0 +1,6 @@
+matplotlib==3.5.3
+numpy==1.23.1
+pandas==1.4.4
+scikit_learn==1.1.2
+streamlit==1.23.1
+streamlit_plotly_events==0.0.6
