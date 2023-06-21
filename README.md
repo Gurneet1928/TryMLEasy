@@ -6,6 +6,8 @@ A Python Web App, frontend made with Streamlit, which allows easy implementation
 
 [![Build Status](https://cdn.jsdelivr.net/gh/jenkinsci/embeddable-build-status-plugin@master/src/doc/flat-square_unconfigured.svg)](https://travis-ci.org/joemccann/dillinger)
 
+![Loop](https://tenor.com/view/loop-gif-18528624.gif)
+
 
 ## Usage
 
@@ -81,10 +83,23 @@ or use the deployed link at the beginning of this readme :()
 
 ## Development and Contributions
 Really want some peeps to contribute into this. Would love to have some contributions.
-Currently very well under developed web app (as of June 2023)
+Currently very well under developed web app (as of June 2023). 
+
+## Have some Ideas ? Found some Bugs ? 
+Create a pull requests, raise an issues.
+ORRRR
+Mail me at gurneet222@gmail.com
 
 ## License
 
-MIT
+MIT License
+
+Distributed under the License of MIT, which provides permission to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software. Check LICENSE file for more info.
+
+OR
+Free to use
+But please make sure attribute the developer....
 
 **Free Software, Hell Yeah!**
+
+## Made till here ? I would like to thank you for reading this whole(possibly) README to reach this endpoint. If you found this software helpful in any case, make sure to star it.    (*^_^*)   (●ˇ∀ˇ●)
