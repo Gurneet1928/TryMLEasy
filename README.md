@@ -15,9 +15,9 @@ A Python Web App, frontend made with Streamlit, which allows easy implementation
 5. The model is implemented successfully
 
 ## Sample Images
-![Default Page](images\default_page.png)
-![Sample Dataset](images\sample_dataset.png)
-![Output Graph](images\output_graph.png)
+![Default Page](images/default_page.png)
+![Sample Dataset](images/sample_dataset.png)
+![Output Graph](images/output_graph.png)
 
 
 ## Currently support the following:
