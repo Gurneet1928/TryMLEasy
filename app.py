@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 # import seaborn as sns
 from sklearn.linear_model import LinearRegression,LogisticRegression
-from sklearn.svm import SVC
+from sklearn.svm import SVR
 from sklearn.model_selection import train_test_split
 from streamlit_plotly_events import plotly_events
 import matplotlib.pyplot as plt
@@ -35,7 +35,7 @@ decomposition_list = {
 model_list = {
     'Linear Regression' : LinearRegression,
     'Logistic Regression' : LogisticRegression,
-    'Support Vector Classification' : SVC
+    'Support Vector Classification' : SVR
 }
 
 
