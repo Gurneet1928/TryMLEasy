@@ -1,6 +1,7 @@
 # TryMLEasy (in Development)
 
 [Deployed on Streamlit Cloud (Click Here!!!!)](https://trymleasy.streamlit.app/)
+
 A Python Web App, frontend made with Streamlit, which allows easy implementation of ML models and techniques on user dataset with GUI and no coding.
 
 [![Build Status](https://cdn.jsdelivr.net/gh/jenkinsci/embeddable-build-status-plugin@master/src/doc/flat-square_unconfigured.svg)](https://travis-ci.org/joemccann/dillinger)
