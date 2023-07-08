@@ -93,10 +93,10 @@ if dataset is not None:
         if X_train is not None:
 
             # ----------------- Make a List to be Used in Pipeline -------
-            if scaler_step is not 'None':
+            if scaler_step != 'None':
                 ml_pipe.append((scaler_step,scale_list[scaler_step]()))
             
-            if decomp_step is not 'None':
+            if decomp_step != 'None':
                 ml_pipe.append((decomp_step,decomposition_list[decomp_step]()))
 
             ml_pipe.append((model_name,model_list[model_name]()))

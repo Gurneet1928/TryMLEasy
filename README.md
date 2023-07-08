@@ -6,8 +6,6 @@ A Python Web App, frontend made with Streamlit, which allows easy implementation
 
 [![Build Status](https://cdn.jsdelivr.net/gh/jenkinsci/embeddable-build-status-plugin@master/src/doc/flat-square_unconfigured.svg)](https://travis-ci.org/joemccann/dillinger)
 
-[![GIF](https://tenor.com/boCOs.gif)](https://tenor.com/boCOs.gif)
-
 
 ## Usage
 
