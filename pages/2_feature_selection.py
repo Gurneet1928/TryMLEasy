@@ -13,7 +13,7 @@ plt.rcParams['figure.figsize'] = 2,2            # Figure Size for Matplotlib
 # -------------------- Show Pages and Hide Pages --------------------
 show_pages(
     [
-        Page("./app.py","Main Page // Dataset Upload"),
+        Page("./home_page.py","Main Page // Dataset Upload"),
         Page("./pages/1_show_dataset.py","Show Dataset"),
         Page("./pages/2_feature_selection.py","Feature Selection"),
         Page("./pages/3_model_selection.py","Model Selection"),
