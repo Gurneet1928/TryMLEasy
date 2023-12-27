@@ -21,6 +21,10 @@ hide_pages([
     'Traditional ML Model',
 ])
 
+if 'keras_model' not in st.session_state:
+    st.session_state.keras_model = None
+if 'model_archi' not in st.session_state:
+    st.session_state.model_archi = None
 # -------------------------------------------------------------------
 
 # -------------------------- Heading -------------------------------

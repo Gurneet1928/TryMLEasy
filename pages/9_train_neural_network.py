@@ -46,8 +46,8 @@ epc = st.number_input("Enter the epochs you want to train for : ", step = 1)
 btc = st.number_input("Enter the Batch Size : ", step = 1)
 
 # Load the Model
-model = tf.keras.models.load_model('./confidential/model.keras',compile=True)
-
+#model = tf.keras.models.load_model('./confidential/model.keras',compile=True)
+model = st.session_state.keras_model
 # Button to check that epochs and batch sizez are not 0
 button_state = False
 if btc == 0 or epc == 0:

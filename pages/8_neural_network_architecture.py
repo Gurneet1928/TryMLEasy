@@ -7,6 +7,7 @@ import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 from st_pages import show_pages,hide_pages,Page
 import os
+from IPython.display import Image
 
 show_pages(
     [
@@ -44,12 +45,14 @@ model.add(tf.keras.layers.Dense(1))
 
 model.compile(optimizer='adam', loss='mse', metrics=['mse'])
 model.summary(print_fn=lambda x: st.text(x))
-tf.keras.utils.plot_model(model=model, to_file='./confidential/model_img.jpeg', rankdir='LR',show_shapes=True,expand_nested=True,show_dtype=True,show_layer_names=True,)
-st.image('./confidential/model_img.jpeg')
+
+# -------- Needs to be worked upon -------------
+#st.session_state.model_archi = tf.keras.utils.plot_model(model=model, to_file='./confidential/model_img.jpeg', rankdir='LR',show_shapes=True,expand_nested=True,show_dtype=True,show_layer_names=True,)
+#st.write(st.session_state.model_archi)
 
 if st.button(label="Train Model",key="nn_train_next"):
-    model.save("./confidential/model.keras")
-    switch_page("training Neural Networks")
+    st.session_state.keras_model = model
+    switch_page("train neural network")
 
 if st.button(label="Back (Neural Network Configuration)",key="nn_train_back"):
-    switch_page("neural network configurations")
+    switch_page("neural network configuration")

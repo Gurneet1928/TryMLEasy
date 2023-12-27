@@ -29,7 +29,7 @@ st.markdown(" <h2 style='text-align: center; color: cream;'> Select the Type of 
 
 #----------------------- Option to Select Model Type----------------------------
 if st.button(label="Traditional ML Model",key="model_traditional"):
-    switch_page("traditional ml model")
+    switch_page("traditional model")
 
 if st.button(label="Neural Networks",key="model_neurals"):
     switch_page('neural network configuration')
