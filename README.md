@@ -3,6 +3,10 @@
 <h3 style='text-align:center'>Your No-Code Approch for using Machine Learning Models</h3>
 <hr>
 
+Powered by Streamlit Cloud!! Click to visit the Deployed Web-App for Free
+[<img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg">](https://trymleasy-2-0.streamlit.app/)
+
+
 [![Build Status](https://cdn.jsdelivr.net/gh/jenkinsci/embeddable-build-status-plugin@master/src/doc/flat-square_unconfigured.svg)](https://travis-ci.org/joemccann/dillinger) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tensorflow?style=flat-square) ![GitHub License](https://img.shields.io/github/license/Gurneet1928/TryMLEasy?style=flat-square)  ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/Gurneet1928/TryMLEasy?style=flat-square)
 
 <hr>
