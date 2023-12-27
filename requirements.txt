@@ -1,5 +1,5 @@
 extra_streamlit_components==0.1.60
-keras==2.14.0
+keras==2.13.1
 matplotlib==3.5.3
 mpld3==0.5.10
 numpy==1.26.2
