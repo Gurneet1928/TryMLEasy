@@ -1,0 +1,40 @@
+TryMLEasy v2.0
+Developed By: Gurneet Singh (Chilled_ice)
+Github: https://github.com/Gurneet1928/
+Linkedin: https://www.linkedin.com/in/gurneetsingh222/
+
+Possible Improvements in this project (Feel free to suggest more ):
+
+>> Overall Improvements
+---- Better Themes
+---- Better Caching and performance
+---- Improved Graphs wherevere required, with appropriate size 
+---- Maybe a final page to test any manual input values against the model
+
+>> Main Page / Dataset Upload
+---- Saving the uploaded file in the session_state for long. In case the user comes back to main page, the uploaded dataset is always retained.
+
+>> Show Dataset
+---- Options to show dataset feature properties (like datatype, unique and total values, missing/NaN/Null values)
+---- Options to clean the dataset using various methods (dropna, fillna)
+
+>> Feature Selection
+---- More Preprocessing Techniques
+---- Encoding methods (like OneHot), bucketization methods
+
+>> Model Selection
+---- Nothing much, maybe something like Small Icon/Image with Button can be good
+
+>> Neural Network Configuration
+---- More Activation Functions
+---- Fixing the index issue (possibly from the side of streamlit)
+---- More Layer Types (Dense, Dropout, Normalization, etc.)
+---- Better naming for layers
+
+>> Neural Network Architecture
+---- Saving the optimizer (since it does not save with the model)
+---- Better Table View for model.summary() 
+---- More optimizer, loss and metric options 
+
+>> Neural Network Training
+---- Better Epoch Outputs in format of tables
