@@ -51,7 +51,7 @@ model.summary(print_fn=lambda x: st.text(x))
 
 if st.button(label="Train Model",key="nn_train_next"):
     st.session_state.keras_model = model
-    switch_page("train neural network")
+    switch_page("training neural networks")
 
 if st.button(label="Back (Neural Network Configuration)",key="nn_train_back"):
     switch_page("neural network configuration")
