@@ -32,7 +32,7 @@ if st.button(label="Traditional ML Model",key="model_traditional"):
     switch_page("traditional model")
 
 if st.button(label="Neural Networks",key="model_neurals"):
-    switch_page('neural network configuration')
+    switch_page('neural network configurations')
 
 if st.button(label="Back (Feature Selection)",key="feature_selection"):
     switch_page("feature selection")
