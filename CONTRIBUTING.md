@@ -1,6 +1,6 @@
 # Contributing to TryMLEasy
 
-Thank you for considering contributing to **TryMLEasy**! We welcome contributions of all kinds. By participating in this project, you agree to helping me make this project better. 
+Thank you for considering contributing to **TryMLEasy**! We welcome contributions of all kinds. By participating in this project, you agree to helping me make this project better. (This file is AI-generated, so feel free to ignore)
 
 ## How to Contribute
 
